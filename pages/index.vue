@@ -8,10 +8,7 @@
       <div>
         {{ test }}
         <div class="links">
-          <a
-            href="/users"
-            class="button--green"
-          >
+          <a href="/users" class="button--green">
             Users List
           </a>
         </div>
@@ -40,7 +37,7 @@
 
 <script>
 export default {
-  async asyncData ({ $http }) {
+  async asyncData({ $http }) {
     const test = await $http.$get('/api/test')
     return {
       test
@@ -60,16 +57,8 @@ export default {
 }
 
 .title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
+  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
   font-weight: 300;
   font-size: 100px;

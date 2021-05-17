@@ -12,8 +12,12 @@
   },
   "dependencies": {
     "@nuxt/http": "latest",
+    "@nuxtjs/auth-next": "5.0.0-1620773067.c356fed",
+    "@nuxtjs/axios": "^5.13.1",
     "express": "latest",
-    "nuxt": "latest"
+    "js-cookie": "^2.2.1",
+    "nuxt": "latest",
+    "tailwindcss": "^2.1.2"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^5.0.0",
